@@ -1,0 +1,314 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: rgb(196, 196, 196);
+    font-family: 'poppins', sans-serif;
+}
+.brr{
+    width: 100%;
+    height: 170px;
+    position: relative;
+    background-color: rgb(8, 100, 23);
+    border-radius: 5px;
+}
+.ss img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+.s p{
+    position: absolute;
+    left: 100px;
+    font-size: 2em;
+    font-weight: 600;
+    color:  rgb(19, 19, 19);
+}
+.brr ion-icon{
+    position: absolute;
+    left: 90%;
+    top: 35px;
+    color: rgb(19, 19, 19);
+    font-size: 5em;
+
+}
+.brr button{
+    height: 90px;
+    width: 90px;
+    background: transparent;
+    position: absolute;
+    left: 450px;
+    top: 35px;
+    border-radius: 15px;
+    border: solid black;
+    border-width: 1px;
+    cursor: pointer;
+}
+.brr button:hover{
+    background: rgb(194, 193, 193);
+}
+.b{
+    width: 3px;
+    height: 45px;
+    border-radius: 15px;
+    background: black;
+    position: absolute;
+    top: 55px;
+    left: 18em;
+}
+.dark img{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 19em;
+}
+.dark ion-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 3em;
+}
+.s{
+    position: relative;
+}
+.s h1{
+    position:absolute;
+    left: 100px;
+    top: 110px;
+    font-size: 2em;
+    font-weight: 600;
+    color:  rgb(19, 19, 19);
+}
+
+.loc img{
+    width: 500px;
+    height: 190px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: absolute;
+    left: 83px;
+    top: 29.4em;
+}
+.loc1 img{
+    width: 500px;
+    height: 190px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: absolute;
+    top: 29.5em;
+    left: 726px;
+}
+.bus img{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    border-radius: 9px;
+}
+.bus{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin:15em 0 0 5em;
+    background-color: rgb(114, 241, 135);
+    border: solid;
+    border-radius: 9px;
+    border-width: 3px;
+}
+
+.bus1{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    margin: 0 10em 0 40em;
+    background-color: rgb(114, 241, 135);
+    border: solid;
+    border-radius: 9px;
+    border-width: 3px;
+}
+.text {
+    position: absolute;
+    margin:0 0 5em 1em;
+
+}
+
+.bus1 img {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    border-radius: 9px;
+    margin: 0 10em 0 0;
+}
+.dd{
+    position: absolute;
+}
+
+.su button{
+    margin: 300px 0  0 15% ;
+    height: 175px;
+    width: 400px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 600;
+    position: absolute;
+    cursor: pointer;
+}
+.su ion-icon{
+    font-size: 40px;
+    position: absolute;   
+    right: 4.5em;
+}
+.su h3{
+    padding-top: 40px;
+}
+.su button:hover{
+    background: rgb(45, 201, 45);
+    border-color: rgb(45, 201, 45);
+    transition: .5s;
+    border: solid;
+    border-width: 2px;
+}
+  
+.sup button{
+    margin: 300px 0px  0 60% ;
+    height: 175px;
+    width: 400px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+}
+.sup ion-icon{
+    font-size: 40px;
+    position: absolute;
+    left: 175px;
+}
+.sup h3{
+    padding-top: 40px;
+}
+.sup button:hover{
+    background: rgb(45, 201, 45);
+    border-color: rgb(45, 201, 45);
+    transition: .5s;
+    border: solid;
+    border-width: 2px;
+}
+.sm ion-icon{
+    font-size: 40px;
+    position: absolute;   
+    right: 4.5em; 
+}
+.sm button{
+    margin: 50px 0  0 15% ;
+    height: 175px;
+    width: 400px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 600;
+    position: absolute;
+    cursor: pointer;
+
+}
+.sm h3{
+    padding-top: 40px;
+}
+.sm button:hover{
+    background: rgb(45, 201, 45);
+    border-color: rgb(45, 201, 45);
+    transition: .5s;
+    border: solid;
+    border-width: 2px;
+}
+.lo button{
+    margin: 50px 0px  0 60% ;
+    height: 175px;
+    width: 400px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+}
+.lo ion-icon{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.lo button:hover{
+    background: rgb(201, 45, 45);
+    border-color: rgb(201, 45, 45);
+    transition: .5s;
+    border: solid;
+    border-width: 2px;
+}
+.wha{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    left: 60px;
+    bottom: 40px;
+    background: rgb(8, 100, 23);
+    border-radius: 50%;
+    border: solid;
+    border-width: 3px;
+}
+.wha ion-icon{
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    left: 73px;
+    bottom: 53px;
+    color: rgb(177, 175, 175);
+}
+button{
+    width: 150px;
+}
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    width: 80%;
+    
+  }
+  
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover{
+    color: #000;
+  }

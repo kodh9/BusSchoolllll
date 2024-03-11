@@ -1,0 +1,102 @@
+body {
+    margin:0%;
+    padding:0%;
+    font-family: 'poppins', sans-serif;
+    /* background-image:  url(z.jpeg); */
+    background: rgb(15,15,14);
+background: linear-gradient(45deg, rgba(15,15,14,1) 15%,
+ rgba(253,188,45,1) 15%, rgba(195,113,34,1) 15%,
+ rgba(217,131,38,1) 85%, rgba(249,182,44,1) 85%,
+  rgba(253,187,45,0.38371845320159315) 85%,
+   rgba(221,146,39,1) 85%, rgba(12,12,11,1) 85%);
+    background-size: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}
+.b{
+    width: 3px;
+    height: 45px;
+    border-radius: 15px;
+    background: black;
+    position: absolute;
+    top: 55px;
+    left: 17em;
+}
+.dark img{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 18em;
+}
+.dark ion-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 14em;
+}
+.ss {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 610px;
+    border-radius: 20px;
+}
+.login{
+    background: transparent;
+    margin-left: 510px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.login h1{
+    color: #fff;
+    margin-left: 100px;
+}
+::placeholder{
+    color:#fff;
+}
+.login input{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: solid;
+    border-color: #fff;
+    border-width: 2px;
+    outline: none;
+    background: transparent;
+}
+.login ion-icon{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.login button{
+    width: 250px;
+    height: 45px;
+    border-radius: 40px;
+    border: solid;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700 ;
+    margin-top: 20px;
+    margin-left: 65px;
+    color: rgb(240, 143, 6) ;
+    background-color: black;
+}
+
+.login p {
+    font-size: .8em;
+    margin-left: 20px;
+}

@@ -1,0 +1,93 @@
+body {
+    margin:0%;
+    padding:0%;
+    font-family: 'poppins', sans-serif;
+    background-image:  url(z.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.b{
+    width: 3px;
+    height: 45px;
+    border-radius: 15px;
+    background: black;
+    position: absolute;
+    top: 55px;
+    left: 17em;
+}
+.dark img{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 18em;
+}
+.dark ion-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 14em;
+}
+.ss {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 610px;
+    border-radius: 20px;
+}
+.login{
+    background: transparent;
+    margin-left: 510px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.login h1{
+    color: #fff;
+    margin-left: 100px;
+}
+::placeholder{
+    color:#fff;
+}
+.login input{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: solid;
+    border-color: #fff;
+    border-width: 2px;
+    outline: none;
+    background: transparent;
+}
+.login ion-icon{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.login button{
+    width: 250px;
+    height: 45px;
+    border-radius: 40px;
+    border: solid;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700 ;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.login p {
+    font-size: .8em;
+    margin-left: 20px;
+}

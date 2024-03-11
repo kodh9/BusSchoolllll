@@ -1,0 +1,153 @@
+body {
+	display: grid;
+	height: 100%;
+	place-items: center;
+	text-align: center;
+	/* background: #000; */
+  background: linear-gradient(45deg, rgba(15,15,14,1) 15%,
+     rgba(253,188,45,1) 15%, rgba(195,113,34,1) 15%,
+     rgba(217,131,38,1) 85%, rgba(249,182,44,1) 85%,
+      rgba(253,187,45,0.38371845320159315) 85%,
+       rgba(221,146,39,1) 85%, rgba(12,12,11,1) 85%);
+}
+
+.container {
+	width: 400px;
+	background: #111;
+	padding: 20px 30px;
+	border: 1px solid #666;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container .star-widget input {
+	display: none;
+}
+.container2{
+  width: 400px;
+	background: #444;
+	padding: 20px 30px;
+	border: 1px solid #444;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.container2 .star-widget input {
+	display: none;
+}
+
+.star-widget label {
+	font-size: 40px;
+	color: #444;
+	padding: 10px;
+	float: right;
+	transition: all 0.2s ease;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+	color: #fd4;
+}
+
+input:checked ~ label {
+	color: #fd4;
+}
+
+input#rate-5:checked ~ label {
+	color: #fe7;
+	text-shadow: 0 0 20px #952;
+}
+
+form header {
+	width: 100%;
+	font-size: 25px;
+	color: #fe7;
+	font-weight: 500;
+	margin: 5px 0 20px 0;
+	text-align: center;
+	transition: all 0.2s ease;
+}
+
+form .textarea {
+	height: 50px;
+	width: 400px;
+	overflow: hidden;
+}
+
+form .textarea textarea {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #eee;
+	border: 1px solid #333;
+	background: #222;
+	padding: 10px;
+	font-size: 17px;
+	resize: none;
+}
+
+form .btn {
+	height: 45px;
+	width: 100%;
+	margin: 15px 0;
+}
+
+form .btn button {
+	height: 100%;
+	width: 100%;
+	border: 1px solid #444;
+	outline: none;
+	background: #222;
+	color: #999;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+h3 {
+	color: #eee;
+	text-align: left;
+}
+
+.zz {
+	height: 170px;
+}
+
+.daaate {
+	color: white;
+}
+tbody{
+  color: #eee;
+}
+.b{
+    width: 3px;
+    height: 45px;
+    border-radius: 15px;
+    background: black;
+    position: absolute;
+    top: 55px;
+    left: 17em;
+}
+.dark img{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 18em;
+}
+.dark ion-icon{
+    width: 40px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 14em;
+}
